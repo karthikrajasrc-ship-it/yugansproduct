@@ -43,37 +43,29 @@ nav a:hover {
 }
 
 /* Hero Section */
-.hero {            
- position: relative;
-  padding: 80px 40px;
-  text-align: center;
-  overflow: hidden;
-}
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  background-image: url("millet new banner.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  opacity: 0.4;          /* ONLY IMAGE IS FADED */
-  z-index: -1;
-}
-.hero-content {
-  position: relative;
-  z-index: 1;
-  color: rgb(3, 1, 1);
+.hero {
+position: relative;
+padding: 90px 90px;
+text-align: center;
+overflow: hidden;
+background-image: url(black\ banner\ image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .hero h2 {
   font-size: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  color: #f4f6f8;
+  text-align: left;
+  padding-left: 65px;
+}
+.hero p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #f4f6f8;
+  text-align: left;
+  padding-left: 135px;
 }
 .information {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -118,17 +110,15 @@ nav a:hover {
   padding-left: 0px;
   font-size: 25px;
 }
-.hero p {
-  font-size: 25px;
-  margin-bottom: 25px;
-}
+
 
 .hero button {
+  display: block;        
   padding: 12px 25px;
+  margin-left: 220px;
   font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  background-color: #f7faf8;
+  border-radius: 7px;
+  background-color: #c2ec37;
   cursor: pointer;
   font-weight: bolder;
 }
