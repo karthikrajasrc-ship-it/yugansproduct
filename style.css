@@ -45,16 +45,52 @@ nav a:hover {
 /* Hero Section */
 .hero {
   background: linear-gradient(to right, #2d9a1e, hsl(134, 36%, 57%));
-  color: white;
+  color: rgb(0, 4, 0);
   padding: 80px 40px;
   text-align: center;
 }
+
 
 .hero h2 {
   font-size: 40px;
   margin-bottom: 15px;
 }
-
+.information {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.spice {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.no {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.end {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-size: 20px;
+}
+.feature-list {
+ list-style: disc;
+  padding-left: 220px;
+  text-align: justify;
+  font-size: 20px;
+}
+.title {
+  text-align: center;
+  color: #3b9b19;
+}
+.footer-list {
+  list-style: disc;
+  padding-left: 220px;
+  text-align: justify;
+  font-size: 20px;
+}
 .hero p {
   font-size: 18px;
   margin-bottom: 25px;
@@ -62,11 +98,12 @@ nav a:hover {
 
 .hero button {
   padding: 12px 25px;
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   border-radius: 5px;
-  background-color: #facc15;
+  background-color: #f7faf8;
   cursor: pointer;
+  font-weight: bolder;
 }
 
 .hero button:hover {
