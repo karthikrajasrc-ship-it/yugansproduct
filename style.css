@@ -33,7 +33,7 @@ nav a {
   color: rgb(4, 9, 5);
   margin-left: 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -58,25 +58,25 @@ nav a:hover {
 .information {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
-  font-size: 20px;
+  font-size: 25px;
   margin: 15px;
 }
 .spice {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
-  font-size: 20px;
+  font-size: 25px;
   margin: 15px;
 }
 .no {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
-  font-size: 20px;
+  font-size: 25px;
   margin: 15px;
 }
 .end {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
-  font-size: 20px;
+  font-size: 25px;
   margin: 15px;
 }
 .feature-list {
@@ -84,21 +84,22 @@ nav a:hover {
   width: fit-content;
   margin: auto auto;
   padding-left: 18px;
-  font-size: 18px;
+  font-size: 25px;
 }
 .title {
   text-align: center;
   color: #3b9b19;
+  font-size: 28px;
 }
 .footer-list {
   list-style-position: outside;
   width: fit-content;
   margin: auto auto;
   padding-left: 0px;
-  font-size: 18px;
+  font-size: 25px;
 }
 .hero p {
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 25px;
 }
 
