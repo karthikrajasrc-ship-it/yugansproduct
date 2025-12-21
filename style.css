@@ -59,37 +59,43 @@ nav a:hover {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
   font-size: 20px;
+  margin: 15px;
 }
 .spice {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
   font-size: 20px;
+  margin: 15px;
 }
 .no {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
   font-size: 20px;
+  margin: 15px;
 }
 .end {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
   font-size: 20px;
+  margin: 15px;
 }
 .feature-list {
- list-style: disc;
-  padding-left: 220px;
-  text-align: justify;
-  font-size: 20px;
+ list-style-position: outside;
+  width: fit-content;
+  margin: auto auto;
+  padding-left: 18px;
+  font-size: 18px;
 }
 .title {
   text-align: center;
   color: #3b9b19;
 }
 .footer-list {
-  list-style: disc;
-  padding-left: 220px;
-  text-align: justify;
-  font-size: 20px;
+  list-style-position: outside;
+  width: fit-content;
+  margin: auto auto;
+  padding-left: 0px;
+  font-size: 18px;
 }
 .hero p {
   font-size: 18px;
