@@ -12,8 +12,8 @@ body {
 
 /* Header */
 header {
-  background-color: hsla(108, 20%, 95%, 0.816);
-  color: white;
+  background-color: hsla(108, 72%, 76%, 0.816);
+  color: rgb(225, 167, 167);
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
@@ -141,4 +141,19 @@ footer {
 
 footer p {
   font-size: 14px;
+}
+
+.contact {
+  padding: 90px 90px;
+  background-color: #f4f6f8;
+  text-align: center;
+  font-weight: bold;
+  word-spacing: 1px;
+  line-height: 1.7;
+}
+.contact-here {
+  color: #21580d;
+}
+.content-inside {
+  color: #0f172a;
 }
