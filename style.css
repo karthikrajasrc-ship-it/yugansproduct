@@ -152,8 +152,50 @@ footer p {
   line-height: 1.7;
 }
 .contact-here {
-  color: #21580d;
+  color: #3c961b;
+  font-size: 18px;
 }
 .content-inside {
   color: #0f172a;
+  padding-bottom: 16px;
+  font-size: 18px;
+}
+.contact-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 90px 90px;
+  background-color: hsla(108, 72%, 76%, 0.816);
+  border-radius: 8px;
+  line-height: 1.7;
+}
+.box-form input,.box-form textarea
+{
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #020701;
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  margin: 4px auto;
+  padding-bottom: 16px;
+}
+.box-btn button {
+  padding: 3px 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 80px;
+  display: block;
+  margin: 2px auto;
+}
+.box-btn button:hover{
+  color: #000000;
+  background-color: #e2a924;
+}
+.contact-form .contact-head{
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 19px;
 }
