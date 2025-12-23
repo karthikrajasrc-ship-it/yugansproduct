@@ -12,7 +12,7 @@ body {
 
 /* Header */
 header {
-  background-color: hsla(108, 72%, 76%, 0.816);
+  background-color: hsla(108, 75%, 47%, 0.444);
   color: rgb(225, 167, 167);
   padding: 15px 40px;
   display: flex;
@@ -224,18 +224,24 @@ footer p {
 }
 .product-catalog .product-card {
 text-align:center;
+line-height: 22px;
 }
 .product-card .cart-btn {
-padding: 1.5px;
+padding: 2px;
 font-weight: bold;
-color: #247a05;
+color: #fbfbfb;
 border-radius: 5.5px;
+background-color: #076417;
 }
 .product-card .cart-btn:hover {
-  color: #3c961b;
+  color: #f2f4f2;
 }
 .product-head {
   text-align: center;
   text-decoration: underline;
   padding-top: 25px;
+}
+.price {
+  font-weight: bold;
+  padding-bottom: 9px;
 }
