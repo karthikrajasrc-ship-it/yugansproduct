@@ -5,25 +5,31 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-body {
+body {  
   background-color: #f4f6f8;
   color: #333;
 }
 
 /* Header */
 header {
-  background-color: hsla(108, 75%, 47%, 0.444);
-  color: rgb(225, 167, 167);
-  padding: 15px 40px;
+    background-image: linear-gradient(
+      rgba(255,255,255,0.6),
+      rgba(255,255,255,0.6)
+    ),
+    url("banner\ background\ image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2px 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .logo img {
-    height: 60px;
-    margin-left: -20px;
+    height: 100px;
+    margin-left: -10px;
     margin-top: -10px;
     cursor: pointer;
+    
 }
 header h1 {
   font-size: 28px;
@@ -119,7 +125,7 @@ nav a:hover {
   padding: 12px 25px;
   font-size: 18px;
   border-radius: 7px;
-  background-color: #c2ec37;
+  background-color: #f6f7f6;
   cursor: pointer;
   font-weight: bolder;
 }
@@ -145,15 +151,16 @@ footer p {
 
 .contact {
   padding: 90px 90px;
-  background-color: #f4f6f8;
+  background-color: #447f313b;
   text-align: center;
   font-weight: bold;
   word-spacing: 1px;
   line-height: 1.7;
 }
 .contact-here {
-  color: #3c961b;
+  color: #206009;
   font-size: 18px;
+  -webkit-text-stroke: 0.6px #00000065;
 }
 .content-inside {
   color: #0f172a;
@@ -163,10 +170,10 @@ footer p {
 .contact-form {
   max-width: 400px;
   margin: 40px auto;
-  padding: 35px 90px;
-  background-color: hsla(108, 72%, 76%, 0.816);
+  padding: 90px 90px;
+  background-color: hsl(108, 37%, 55%);
   border-radius: 8px;
-  line-height: 1.7;
+  line-height: 1.8;
 }
 .box-form input,.box-form textarea
 {
