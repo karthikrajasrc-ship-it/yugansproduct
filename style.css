@@ -169,11 +169,13 @@ footer p {
 }
 .contact-form {
   max-width: 400px;
+  width: 100%;
   margin: 40px auto;
-  padding: 90px 90px;
+  padding: 40px;
   background-color: hsl(108, 37%, 55%);
   border-radius: 8px;
   line-height: 1.8;
+  box-sizing: border-box;
 }
 .box-form input,.box-form textarea
 {
