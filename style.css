@@ -311,7 +311,7 @@ footer p {
   nav a {
     margin-left: 30px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .hero h2 {
@@ -321,18 +321,25 @@ footer p {
 
   .hero p {
     font-size: 25px;
-  }
-  .hero {
-  position: absolute;
-  width: 100%;
-  min-height: 350px;
-  padding: 60px 40px;
-  text-align: left;
-  background-image: url("black banner image.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    word-wrap: break-word;
+}
+.logo img {
+  height: 70px;
+  cursor: pointer;
+  align-items: center;
+}
+.hero button {
+  display: block;
+  padding: 9px 18px;
+  font-size: 18px;
+  border-radius: 7px;
+  background-color: #f6f7f6;
+  cursor: pointer;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.hero-highlight {
+  color: #076104;
+  font-weight: bolder;
 }
 }
