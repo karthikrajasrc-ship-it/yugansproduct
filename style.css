@@ -323,8 +323,8 @@ footer p {
     font-size: 25px;
   }
   .hero {
-  position: relative;
-  width: 135%;
+  position: absolute;
+  width: 100%;
   min-height: 350px;
   padding: 60px 40px;
   text-align: left;
