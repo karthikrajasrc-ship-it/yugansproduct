@@ -75,8 +75,11 @@ header h1 {
 .hero h2 {
   font-size: 40px;
   margin-bottom: 30px;
-  color: #f4f6f8;
+  color: #ffffff;
   text-align: left;
+}
+.hero-headhighlight {
+  color: #feda10d2;
 }
 
 .hero p {
@@ -84,6 +87,10 @@ header h1 {
   margin-bottom: 30px;
   color: #f4f6f8;
   text-align: left;
+}
+
+.hero-highlight{
+  color: #feda10d2;;
 }
 
 .information {
@@ -339,7 +346,12 @@ footer p {
   text-decoration: none;
 }
 .hero-highlight {
-  color: #076104;
+  color: #feda10d2;
   font-weight: bolder;
+ 
+
+}
+header {
+  padding: 10px;
 }
 }
